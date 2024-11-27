@@ -3,7 +3,7 @@ This code implements the basin delta P approach for dynamic CO2 storage capacity
 **Files**
 - delta_p_master.py contains the relevant functions
 - example.py is a working example
--
+
 **Inputs**
 - reservoir depth
 - reservoir permeability
