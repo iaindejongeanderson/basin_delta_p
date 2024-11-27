@@ -26,7 +26,7 @@ rho_co2 = PropsSI('D', 'T', T_f+273.15, 'P', p_init*1E6, 'CO2') # CO2 density, k
 
 ## Estimating fracture pressure
 
-v = 0.1+(0.06*(D/1000)) # poisson's ratio
+v = 0.1+(0.06*(D/1000)) # poisson's ratio with depth, after Ringrose & Meckel (2019)
 FP = estimate_frac_pres(sv,p_init,v)
 
 ## Conversion to bars
