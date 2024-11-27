@@ -17,3 +17,8 @@ This code implements the basin delta P approach for dynamic CO2 storage capacity
 - Injectivity (from permeability and thickness)
 - Rate of pressure buildup (A), from connected pore volume
 
+**Output**
+- v_out: array of volume of CO2 stored (one value per year)
+- p_out: array of reservoir pressure (one value per year)
+- end_year: year simulation stops (maximum of 30 years)
+
