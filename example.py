@@ -54,4 +54,4 @@ A = -6.785 * v_p + 44.617   # Tian Guo's function for A versus v_p Large-scale C
                             # analysis approaches
 
 
-v_o,t_D,t_D_out,p_out = delta_p(p_init,p_well,p_final,A,ic,rho_co2)
+v_out,end_year,p_out = delta_p(p_init,p_well,p_final,A,ic,rho_co2)
