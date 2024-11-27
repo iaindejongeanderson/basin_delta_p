@@ -39,9 +39,7 @@ k = 271 #mD
 h = 275 #m
 ic = injectivity_index(k,h,rho_co2)
 
-## Well pressure, unclear what a reasonabe value is
-## Should be lower than fracture pressure
-## Currently defined as 2/3 between initial and frac pressure
+## Well pressure, currently defined as 2/3 between initial and frac pressure
 
 p_well = p_init+(2/3*(p_final-p_init)); 
 
