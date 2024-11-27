@@ -1,4 +1,5 @@
 This code implements the basin delta P approach for dynamic CO2 storage capacity, after Ringrose & Meckel (2019)
+Requires installation of coolprops for CO2 density calculations
 
 **Files**
 - delta_p_master.py contains the relevant functions
