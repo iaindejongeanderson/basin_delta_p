@@ -33,11 +33,11 @@ def delta_p(p_init,p_well,p_final,A,inj,rho_co2):
     else:
         print("sim stops after ",t_D-1,' years')
 
-    v_well = np.array(v_well)    
+    v_out = np.array(v_well)    
     cumulative_storage = np.round(sum(v_well[v_well>0]),2)
     print('CO2 stored = ',cumulative_storage,' Mt')
         
-    return v_well,t_D,t_D_out,p_out
+    return v_out,t_D-1,p_out
 
 def estimate_frac_pres(sv,pp,v):
     # Equation 7 from Zhang (2011) 
