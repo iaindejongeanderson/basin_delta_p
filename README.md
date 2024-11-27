@@ -8,7 +8,7 @@ This code implements the basin delta P approach for dynamic CO2 storage capacity
 - reservoir depth
 - reservoir permeability
 - reservoir thickness
-- connected pore volume (v_p)
+- connected pore volume
 - pressure and temperature gradients
 
 **Calculated intermediate parameters**
