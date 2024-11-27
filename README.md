@@ -6,7 +6,7 @@ Requires installation of coolprops for CO2 density calculations
 
 ## How to run
 1. Download delta_p_master.py and example.py
-2. cd to folder containing both
+2. cd to folder containing both files
 3. Run example.py. Adjust input parameters where appropriate
 
 ## Files
